@@ -1,0 +1,383 @@
+<style>
+    #source-div-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+    #source-div-1 .design_element {
+        box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<div id="source-div-1">
+    <!-- Post One -->
+    <div class="sliderBox">
+        <div class="design_element"
+            style="background-color: #A9D1E8;
+                    width: 368px;
+                    height: 368px;
+                    font-size: 14px;
+                    position: relative;
+                    overflow: hidden;
+                    z-index: 4;">
+
+            <!-- Circular Pattern -->
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(circle, #2a2a2a 1px, transparent 1px); background-size: 20px 20px; opacity: 0.3;"></div>
+
+            <!-- Image -->
+            <div
+                style="position: absolute; 
+                        bottom: 10%; 
+                        left: 5%; 
+                        width: 90%; 
+                        height: 45%; 
+                        box-shadow: 5px 5px 0 #ffffff;">
+                <img src="images/2.jpg"
+                    style="width: 100%; 
+                            height: 100%; 
+                            object-fit: cover;"
+                    alt>
+            </div>
+
+            <!-- Content -->
+            <div class="content"
+                style="width: 90%;
+                        position: absolute; 
+                        top: 10px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        text-align: center;
+                        background-color: rgba(255, 255, 255, 0.7);
+                        padding: 10px;">
+                <!-- Heading -->
+                <div class="custom-heading"
+                    style="font-family: serif;
+                            font-size: 180%;
+                            font-weight: bold;
+                            font-style: italic;
+                            line-height: 1;
+                            color: #113146;
+                            text-transform: capitalize;">
+                    <span>Adventure Awaits</span>
+                </div>
+                <!-- Subheading -->
+                <div class="custom-subheading"
+                    style="font-family: sans-serif; 
+                            font-size: 90%; 
+                            line-height: 1.4; 
+                            color: #2a2a2a; 
+                            margin: 10px 0;">
+                    <span>
+                        Discover hidden gems and embark on unforgettable
+                        journeys around the globe.
+                    </span>
+                </div>
+                <!-- Call To Action -->
+                <div class="call-to-action">
+                    <a href="#"
+                        style="display: inline-block; 
+                                font-family: sans-serif; 
+                                font-size: 90%; 
+                                font-weight: 700; 
+                                color: #2a2a2a; 
+                                text-decoration: none;">
+                        www.exploremore.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Edit Button -->
+            <div class="overlaySec">
+                <a href="javascript:void(0);" class="csButton design_edit">
+                    <i class="uil uil-edit"></i> EDIT </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Two -->
+    <div class="sliderBox">
+        <div class="design_element"
+            style="background-color: #A9D1E8;
+                width: 368px;
+                height: 368px;
+                font-size: 14px;
+                position: relative;
+                overflow: hidden;
+                z-index: 4;">
+
+            <!-- Diagonal Stripes Pattern -->
+            <div
+                style="position: absolute; 
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: repeating-linear-gradient(
+                            45deg,
+                            #2a2a2a 0,
+                            #2a2a2a 5px,
+                            #A9D1E8 5px,
+                            #A9D1E8 10px); opacity: 0.1;">
+            </div>
+
+            <!-- Image (moved to the center) -->
+            <div
+                style="position: absolute; 
+                        top: 50%; 
+                        left: 50%; 
+                        transform: translate(-50%, -50%); 
+                        width: 80%; 
+                        height: 50%; 
+                        box-shadow: 0px 5px 0 #ffffff;">
+                <img src="images/2.jpg"
+                    style="width: 100%; 
+                            height: 100%; 
+                            object-fit: cover;"
+                    alt>
+            </div>
+
+            <!-- Content (top-right corner) -->
+            <div class="content"
+                style="position: absolute; 
+                        top: 10px; 
+                        right: 10px; 
+                        background-color: rgba(255, 255, 255, 0.7); 
+                        padding: 10px; 
+                        width: 45%;">
+                <!-- Heading -->
+                <div class="custom-heading"
+                    style="font-family: serif; font-size: 180%; font-weight: bold; color: #113146;">
+                    <span>Venture Beyond</span>
+                </div>
+                <!-- Subheading -->
+                <div class="custom-subheading"
+                    style="font-family: sans-serif; font-size: 90%; color: #2a2a2a; margin: 5px 0;">
+                    <span>Explore the unseen world waiting for you.</span>
+                </div>
+                <!-- Call To Action -->
+                <div class="call-to-action">
+                    <a href="#"
+                        style="font-family: sans-serif; font-size: 90%; font-weight: bold; color: #2a2a2a; text-decoration: none;">
+                        www.beyond.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Edit Button -->
+            <div class="overlaySec">
+                <a href="javascript:void(0);" class="csButton design_edit">
+                    <i class="uil uil-edit"></i> EDIT </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Three -->
+    <div class="sliderBox">
+        <div class="design_element"
+            style="background-color: #A9D1E8;
+                    width: 368px;
+                    height: 368px;
+                    font-size: 14px;
+                    position: relative;
+                    overflow: hidden;
+                    z-index: 4;">
+
+            <!-- Image (centered with circular shape) -->
+            <div
+                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60%; height: 60%; border-radius: 50%; overflow: hidden;">
+                <img src="images/2.jpg"
+                    style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"
+                    alt>
+            </div>
+
+            <!-- Content (bottom with full width) -->
+            <div class="content"
+                style="position: absolute; bottom: 0; width: 100%; background-color: rgba(255, 255, 255, 0.8); padding: 10px; text-align: center;">
+                <!-- Heading -->
+                <div class="custom-heading"
+                    style="font-family: serif; font-size: 180%; font-weight: bold; color: #113146;">
+                    <span>Wanderlust</span>
+                </div>
+                <!-- Subheading -->
+                <div class="custom-subheading"
+                    style="font-family: sans-serif; font-size: 90%; color: #2a2a2a; margin: 5px 0;">
+                    <span>Your adventure begins here.</span>
+                </div>
+                <!-- Call To Action -->
+                <div class="call-to-action">
+                    <a href="#"
+                        style="font-family: sans-serif; font-size: 85%; font-weight: bold; color: #2a2a2a; text-decoration: underline;">
+                        www.wanderlust.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Edit Button -->
+            <div class="overlaySec">
+                <a href="javascript:void(0);" class="csButton design_edit">
+                    <i class="uil uil-edit"></i> EDIT </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Four -->
+    <div class="sliderBox">
+        <div class="design_element"
+            style="background-color: #A9D1E8;
+                    width: 368px;
+                    height: 368px;
+                    font-size: 14px;
+                    position: relative;
+                    overflow: hidden;
+                    z-index: 4;">
+
+            <!-- Checkerboard Pattern -->
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: linear-gradient(45deg, #A9D1E8 25%, #2a2a2a 25%, #2a2a2a 50%, #A9D1E8 50%, #A9D1E8 75%, #2a2a2a 75%, #2a2a2a); background-size: 40px 40px; opacity: 0.2;"></div>
+
+            <!-- Image (full-width, top) -->
+            <div
+                style="position: absolute; top: 10px; left: 5%; width: 90%; height: 40%; box-shadow: 0px 5px 0 #ffffff;">
+                <img src="images/2.jpg"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                    alt>
+            </div>
+
+            <!-- Content (below image) -->
+            <div class="content"
+                style="position: absolute; top: 55%; width: 100%; background-color: rgba(255, 255, 255, 0.8); padding: 10px;">
+                <!-- Heading -->
+                <div class="custom-heading"
+                    style="font-family: serif; font-size: 150%; font-weight: bold; text-align: center; color: #113146;">
+                    <span>Embrace Adventure</span>
+                </div>
+                <!-- Subheading -->
+                <div class="custom-subheading"
+                    style="font-family: sans-serif; font-size: 85%; text-align: center; color: #2a2a2a; margin: 5px 0;">
+                    <span>Discover new places and experiences today.</span>
+                </div>
+                <!-- Call To Action -->
+                <div class="call-to-action" style="text-align: center;">
+                    <a href="#"
+                        style="font-family: sans-serif; font-size: 85%; font-weight: bold; color: #2a2a2a; text-decoration: none;">
+                        www.embraceadventure.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Edit Button -->
+            <div class="overlaySec">
+                <a href="javascript:void(0);" class="csButton design_edit">
+                    <i class="uil uil-edit"></i> EDIT </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Five -->
+    <div class="sliderBox">
+        <div class="design_element"
+            style="background-color: #A9D1E8;
+                    width: 368px;
+                    height: 368px;
+                    font-size: 14px;
+                    position: relative;
+                    overflow: hidden;
+                    z-index: 4;">
+
+            <!-- Circular Pattern -->
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(circle, #2a2a2a 1px, transparent 1px); background-size: 20px 20px; opacity: 0.3;"></div>
+
+            <!-- Image (left half) -->
+            <div
+                style="position: absolute; top: 10px; left: 10px; width: 45%; height: 90%; box-shadow: 5px 5px 0 #ffffff;">
+                <img src="images/2.jpg"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                    alt>
+            </div>
+
+            <!-- Content (right half) -->
+            <div class="content"
+                style="position: absolute; top: 50%; left: 55%; transform: translateY(-50%); width: 40%; background-color: rgba(255, 255, 255, 0.8); padding: 10px;">
+                <!-- Heading -->
+                <div class="custom-heading"
+                    style="font-family: serif; font-size: 160%; font-weight: bold; color: #113146;">
+                    <span>Explore</span>
+                </div>
+                <!-- Subheading -->
+                <div class="custom-subheading"
+                    style="font-family: sans-serif; font-size: 85%; color: #2a2a2a; margin: 5px 0;">
+                    <span>Find new paths in life’s great adventure.</span>
+                </div>
+                <!-- Call To Action -->
+                <div class="call-to-action">
+                    <a href="#"
+                        style="font-family: sans-serif; font-size: 85%; font-weight: bold; color: #2a2a2a; text-decoration: underline;">
+                        www.explore.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Edit Button -->
+            <div class="overlaySec">
+                <a href="javascript:void(0);" class="csButton design_edit">
+                    <i class="uil uil-edit"></i> EDIT </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Six -->
+    <div class="sliderBox">
+        <div class="design_element"
+            style="background-color: #A9D1E8;
+                width: 368px;
+                height: 368px;
+                font-size: 14px;
+                position: relative;
+                overflow: hidden;
+                z-index: 4;">
+
+            <!-- Zigzag Pattern -->
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: linear-gradient(135deg, #2a2a2a 25%, transparent 25%, transparent 50%, #2a2a2a 50%, #2a2a2a 75%, transparent 75%, transparent); background-size: 20px 20px; opacity: 0.2;"></div>
+
+            <!-- Image (diagonal placement) -->
+            <div
+                style="position: absolute; top: 10%; left: 10%; width: 80%; height: 45%; transform: rotate(-10deg); box-shadow: -10px -10px 0 #ffffff;">
+                <img src="images/2.jpg"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                    alt>
+            </div>
+
+            <!-- Content (centered horizontally) -->
+            <div class="content"
+                style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(255, 255, 255, 0.8); padding: 10px; width: 90%; text-align: center;">
+                <!-- Heading -->
+                <div class="custom-heading"
+                    style="font-family: serif; font-size: 160%; font-weight: bold; color: #113146;">
+                    <span>Discover More</span>
+                </div>
+                <!-- Subheading -->
+                <div class="custom-subheading"
+                    style="font-family: sans-serif; font-size: 85%; color: #2a2a2a; margin: 5px 0;">
+                    <span>Embrace the journey that awaits.</span>
+                </div>
+                <!-- Call To Action -->
+                <div class="call-to-action">
+                    <a href="#"
+                        style="font-family: sans-serif; font-size: 85%; font-weight: bold; color: #2a2a2a; text-decoration: none;">
+                        www.journey.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Edit Button -->
+            <div class="overlaySec">
+                <a href="javascript:void(0);" class="csButton design_edit">
+                    <i class="uil uil-edit"></i> EDIT </a>
+            </div>
+        </div>
+    </div>
+
+</div>

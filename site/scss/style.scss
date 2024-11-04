@@ -1,0 +1,17 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Font Awesome */
+@import "../plugins/fontawesome/scss/fontawesome";
+@import "../plugins/fontawesome/scss/solid";
+@import "../plugins/fontawesome/scss/brands";
+@import "../plugins/fontawesome/scss/regular";
+
+/* Bootstrap */
+@import "../plugins/bootstrap/scss/bootstrap";
+
+/* Components */
+@import "components/variables";
+@import "components/reset";
+@import "components/forms";
+@import "components/components";
